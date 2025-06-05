@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/** nav-bar section **/
+
+.navbar{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav_logo_container{
+    height: 40px;
+    width: 80px;
+   
+}
+
+.nav_logo{
+    background-image: url("img/amazon_logo.png");
+    background-size: cover;
+    height: 40px;
+    width: 80px;
+
+}
+
+.nav_add{
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.nav_add_icon{
+   margin-top: 18px;
+}
+    
+
+.nav_add_text{
+    font-size: 0.85rem;
+    color: #cccccc;
+   margin-left: 5px;
+}
+
+#place{
+    font-size: 1rem;
+    font-weight: 700;
+    color:white;
+}
+
+/** Nav Search **/
+
+.nav_search{
+    display: flex;
+    height: 40px;
+    width: 620px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+
+    &:hover{
+        border: 2px solid rgba(255, 208, 0, 0.884);
+    }
+}
+
+
+.nav_search_select{
+    width: 60px;
+    background-color: rgb(182, 173, 173);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: rgba(87, 80, 80, 0.726);
+    border: none;
+}
+
+
+
+.nav_search_input{
+    width: 100%;
+    font-size: 15px;
+    padding: 4px;
+    border: none;
+
+}
+
+.nav_search_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    font-size: 1.3rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.712);
+    background-color: rgb(255, 208, 0);
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    
+}
+
+/** nav sign in  and returns**/
+
+#nav_sign_in_first{
+    font-size: 0.85rem;
+}
+
+#nav_sign_in_second{
+    font-weight: 700;
+}
+
+.nav_cart{
+    display: flex;
+}
+
+.nav_cart_icon{
+    font-size: 30px
+}
+
+.nav_cart p{
+    font-size: 0.85rem;
+    font-weight: 700;
+    align-self: self-end;
+}
+
+/** nav Panel **/
+
+.nav_panel{
+    height: 40px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav_panel_menu{
+    font-weight: 700;
+    padding: 8px;
+}
+
+.nav_panel_list{
+    width: 620px;
+}
+
+.nav_panel_list ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 0.9rem;
+    padding: 10px;
+}
+
+/** hero section **/
+
+.hero_section{
+    background-image: linear-gradient(to bottom,rgba(128, 128, 128, 0),rgba(255, 255, 255, 0.678)),url('img/hero_image.jpg');
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.hero_section_content{
+    height: 40px;
+    width: 95%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hero_section_content a{
+    color: #2162A1;
+    text-decoration: none;
+}
+
+/** card Section **/
+
+.card_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ececec;
+}
+
+.box{
+
+    height: 420px;
+    width: 30%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.39);
+    margin-bottom: 25px;
+}
+
+.card_img_container{
+    margin-top: 10px;
+    height: 300px;
+    background-size: cover;
+}
+
+.box p{
+    margin-top: 25px;
+}
+
+.box p a{
+    text-decoration: none;
+    color: #2162A1;
+}
+
+/** footer Section **/
+
+.footer_top_section{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #123253;
+    color: white;
+    font-size: 0.85rem;
+}
+
+.footer_middle_section{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-evenly;
+    background-color: #081d31;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.603);
+    padding-bottom: 20px;
+}
+
+.footer_middle_section h4{
+    padding-bottom: 10px;
+}
+
+.footer_middle_section li{
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.795);
+    list-style: none;
+    font-size: 0.85rem;
+}
+
+.footer_bottom_section{
+    height: 60px;
+    padding: 10px 15px 20px 25px;
+    background-color: #030f1b;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.footer_bottom_section p{
+    padding: 5px;
+}
